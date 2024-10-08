@@ -1,0 +1,22 @@
+name
+address
+phone
+email
+social security number
+passport number
+driver's license
+credit card number
+bank account
+insurance number
+place of birth
+vehicle registration
+vehicle plate
+plate number
+employee ID
+medical record
+IP address
+login
+password
+personal identification number
+IBAN
+AVS
