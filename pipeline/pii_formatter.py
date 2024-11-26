@@ -21,7 +21,7 @@ class PIIFormatter(BaseFormatter):
         only_remove_public_ips: bool = True,
         add_pii_list_to_metadata: bool = True,  # Option to add PII list to metadata
         priorities_to_keep: list[str] = ['P0', 'P1'],  # Parameter for priorities
-        eu_file_path: str = 'resources/eu_regex.xlsx'  # Default file for EU regex
+        eu_file_path: str = './resources/eu_regex.xlsx'  # Default file for EU regex
     ):
         super().__init__()
         self.remove_emails = remove_emails
