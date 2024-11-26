@@ -1,7 +1,7 @@
 import openai
 
 # Initialize the OpenAI client with your API key
-client = openai.Client(api_key="your-api-key-here", base_url="http://your-openai-server-url")
+client = openai.Client(api_key="sk-rc-31CcDP71_T-1uNVF8yFm7g", base_url="http://your-openai-server-url")
 
 def construct_prompt_and_check_pii(context, pii_candidate, pii_type="PII", confirmTrue=False, window_size=30):
     tokens = context.split()
